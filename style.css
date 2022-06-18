@@ -1,0 +1,167 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+ .header{
+ 	width: 100%;
+ 	padding-top: 32px;
+ 	padding-bottom: 32px;
+ }
+ .container{
+ 	width: 1140px;
+ 	margin: auto;
+ }
+ .menu{
+ 	text-align: center;
+ }
+ .menu li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin-left: 18px;
+ 	margin-right: 18px;
+ 	font-size: 18px;
+ }
+.menu a{
+ 	color: black;
+ 	text-decoration: none;
+ 	transition: 1s;
+ 	display: inline-block;
+ }
+.menu a:hover{
+	color: black;
+	transform: scale(1.5);
+	display: inline-block;
+	transition: 1s;
+}
+
+
+.banner{
+	width: 100%;
+}
+.main-box{
+	display: flex;
+}
+.left{
+	flex-basis: 50%;
+}
+.right{
+	flex-basis: 50%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.left{
+	margin-top: 100px;
+}
+.left h1{
+	font-size: 45px;
+	font-weight: 700;
+	color: #1e266d;
+}
+.left p{
+	font-size: 22px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #1e266d;
+}
+.left .banner-btn{
+	background: #2e367d;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	border-radius: 4px;
+}
+.left .banner-btn:hover{
+	background-color: skyblue;
+}
+.right{
+	margin-top: 40px;
+}
+
+
+
+.footer{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.footer-main{
+	display: flex;
+}
+.footer-item{
+	flex-basis: 25%;
+}
+.footer-item h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.footer-item p{
+	color: #91a3bb;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	margin-right: 16px;
+}
+.footer-item li{
+	list-style: none;
+	margin-bottom: 8px;
+}
+.footer-item li a{
+	color: #91a3bb;
+	transition: 0.5s;
+}
+.footer-item li a:hover{
+	color: black;
+	margin-left: 6px;
+	transition: 0.5s;
+}
+
+
+
+.address{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.address-main{
+	display: flex;
+	background-color: #2e367d;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 60px;
+	padding-right: 40px;
+	border-radius: 10px;
+}
+.a-left{
+	flex-basis: 50%;
+}
+.a-right{
+	flex-basis: 50%;
+}
+
+
+.a-left h2, .a-right h2{
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+.a-left p, .a-right p{
+	color: white;
+	font-size: 16px;
+	line-height: 1.7;
+	margin-right: 42px;
+}
